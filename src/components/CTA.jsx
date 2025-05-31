@@ -48,7 +48,7 @@ const CTA = () => {
 
   return (
     <section id="contact" className="py-20 bg-black">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-gray-900/50 to-blue-900/20 rounded-2xl border border-gray-800 p-8 md:p-12 relative overflow-hidden">
           {/* Background blur effects */}
           <div className="absolute -top-32 -right-32 w-64 h-64 bg-blue-600/10 rounded-full filter blur-xl"></div>
