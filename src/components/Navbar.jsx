@@ -102,9 +102,9 @@ const Navbar = () => {
       <style jsx>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap');
         
-        .tech-font {
+        /* .tech-font {
           font-family: 'Orbitron', sans-serif;
-        }
+        } */
         
         .ai-gradient-text {
           background: linear-gradient(90deg, #00d1ff, #0077ff, #b545ff);
@@ -140,7 +140,7 @@ const Navbar = () => {
                   </div>
                   <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-green-400 rounded-full border-2 border-black animate-pulse"></div>
                 </div>
-                <span className="text-2xl font-bold ai-gradient-text tech-font">
+                <span className="text-2xl font-bold ai-gradient-text ">
                   NEXUS<span className="text-white">AI</span>
                 </span>
               </div>
@@ -151,28 +151,28 @@ const Navbar = () => {
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition flex items-center cursor-pointer"
                   >
                     <Settings className="mr-2 text-blue-400" size={16} />
-                    <span className="tech-font">FEATURES</span>
+                    <span className="">FEATURES</span>
                   </button>
                   <button 
                     onClick={() => handleNavClick('#how-it-works')}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition flex items-center cursor-pointer"
                   >
                     <Cpu className="mr-2 text-purple-400" size={16} />
-                    <span className="tech-font">TECH</span>
+                    <span className="">TECH</span>
                   </button>
                   <button 
                     onClick={() => handleNavClick('#robot')}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition flex items-center cursor-pointer"
                   >
                     <Bot className="mr-2 text-green-400" size={16} />
-                    <span className="tech-font">AI DEMO</span>
+                    <span className="">AI DEMO</span>
                   </button>
                   <button 
                     onClick={() => handleNavClick('#pricing')}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition flex items-center cursor-pointer"
                   >
                     <Rocket className="mr-2 text-yellow-400" size={16} />
-                    <span className="tech-font">UPGRADE</span>
+                    <span className="">UPGRADE</span>
                   </button>
                 </div>
               </div>
@@ -181,15 +181,15 @@ const Navbar = () => {
               <div className="ml-4 flex items-center md:ml-6">
                 <button 
                   onClick={() => handleNavClick('#contact')}
-                  className="px-4 py-2 rounded-md text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition mr-4 tech-font"
+                  className="px-4 py-2 rounded-md text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition mr-4 "
                 >
                   <Terminal className="inline mr-2" size={16} />
-                  CONTACT
+                  CONTACT US
                 </button>
-                <button className="px-4 py-2 rounded-md text-sm font-medium border border-blue-600 hover:bg-blue-600/20 transition tech-font">
+                {/* <button className="px-4 py-2 rounded-md text-sm font-medium border border-blue-600 hover:bg-blue-600/20 transition ">
                   <UserCheck className="inline mr-2" size={16} />
                   LOGIN
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
