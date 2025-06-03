@@ -248,7 +248,7 @@ const Features = () => {
         <div className="mt-16 text-center">
           <a 
             href="#contact" 
-            className="inline-flex items-center px-8 py-4 rounded-xl font-bold text-white hover:shadow-xl transition-all transform hover:scale-105"
+            className="inline-flex items-center px-8 py-4 rounded-xl font-bold text-black hover:shadow-xl transition-all transform hover:scale-105"
             style={{
               background: '#FED700',
               ':hover': {
