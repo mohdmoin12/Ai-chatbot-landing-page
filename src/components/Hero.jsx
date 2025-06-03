@@ -151,7 +151,7 @@ const Hero = () => {
           </div>
           
           {/* AI Assistant Ready Badge */}
-          <div className="inline-flex bg-yellow-500 p-4 rounded-xl shadow-xl animate-bounce-slow border border-yellow-400">
+          {/* <div className="inline-flex bg-yellow-500 p-4 rounded-xl shadow-xl animate-bounce-slow border border-yellow-400">
             <div className="flex items-center">
               <div className="mr-3">
                 <FontAwesomeIcon icon={faRobot} className="text-3xl text-gray-900" />
@@ -161,7 +161,7 @@ const Hero = () => {
                 <div className="font-bold text-gray-900">Ready to help!</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
