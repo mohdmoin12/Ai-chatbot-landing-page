@@ -609,7 +609,7 @@
 //                       " #FED700";
 //                   }}
 //                 >
-//                   LET'S TALK 
+//                   LET'S TALK
 //                 </button>
 //               </div>
 //             </div>
@@ -676,9 +676,9 @@
 //                 <Terminal className="mr-2" size={16} />
 //                 Contact us
 //               </button>
-//               {/* <button 
+//               {/* <button
 //                 className="block w-full text-left px-3 py-2 rounded-md text-base font-medium border transition flex items-center"
-//                 style={{ 
+//                 style={{
 //                   borderColor: '#FED700',
 //                   color: 'white'
 //                 }}
@@ -702,7 +702,6 @@
 
 // export default Navbar;
 
-
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -723,14 +722,28 @@ const Navbar = () => {
 
   // SVG Icons
   const SettingsIcon = () => (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FED700" strokeWidth="2">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#FED700"
+      strokeWidth="2"
+    >
       <circle cx="12" cy="12" r="3"></circle>
       <path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"></path>
     </svg>
   );
 
   const CpuIcon = () => (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgb(196 181 253)" strokeWidth="2">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(196 181 253)"
+      strokeWidth="2"
+    >
       <rect x="4" y="4" width="16" height="16" rx="2"></rect>
       <rect x="9" y="9" width="6" height="6"></rect>
       <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"></path>
@@ -738,7 +751,14 @@ const Navbar = () => {
   );
 
   const BotIcon = () => (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgb(74 222 128)" strokeWidth="2">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(74 222 128)"
+      strokeWidth="2"
+    >
       <rect width="18" height="10" x="3" y="11" rx="2"></rect>
       <circle cx="12" cy="5" r="2"></circle>
       <path d="m3 11 7.5-7.5L18 11"></path>
@@ -748,21 +768,42 @@ const Navbar = () => {
   );
 
   const RocketIcon = () => (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgb(251 191 36)" strokeWidth="2">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(251 191 36)"
+      strokeWidth="2"
+    >
       <path d="M4.5 16.5 12 9l7.5 7.5L12 24l-7.5-7.5z"></path>
       <path d="M12 2 9.5 9.5 12 12l2.5-2.5L12 2z"></path>
     </svg>
   );
 
   const TerminalIcon = () => (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
       <polyline points="4,17 10,11 4,5"></polyline>
       <line x1="12" y1="19" x2="20" y2="19"></line>
     </svg>
   );
 
   const MenuIcon = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
       <line x1="4" y1="6" x2="20" y2="6"></line>
       <line x1="4" y1="12" x2="20" y2="12"></line>
       <line x1="4" y1="18" x2="20" y2="18"></line>
@@ -795,20 +836,20 @@ const Navbar = () => {
         }
       `}</style>
 
-      <nav className="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-gray-800">
+      <nav id="nav" className="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-24">
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 {/* Brand logo */}
                 <div className="relative">
-                 <a href="#hero">
-  <img
-    src="https://www.popphones.com.au/wp-content/themes/etrostore-child-theme/assets/img/pop-phones-logo-v1.png"
-    alt="POPI Brand Logo"
-    className="brand-logo ai-glow"
-  />
-</a>
+                  <a href="#hero">
+                    <img
+                      src="https://www.popphones.com.au/wp-content/themes/etrostore-child-theme/assets/img/pop-phones-logo-v1.png"
+                      alt="POPI Brand Logo"
+                      className="brand-logo ai-glow"
+                    />
+                  </a>
 
                   {/* <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-yellow-400 rounded-full border-2 border-black animate-pulse"></div> */}
                 </div>
@@ -852,7 +893,7 @@ const Navbar = () => {
                   onClick={() => handleNavClick("#contact")}
                   className="px-4 py-2 rounded-md text-lg font-medium transition mr-4 bg-yellow-400 text-black hover:bg-yellow-500"
                 >
-                  LET'S TALK 
+                  LET'S TALK
                 </button>
               </div>
             </div>
@@ -882,26 +923,26 @@ const Navbar = () => {
               <SettingsIcon />
               <span className="ml-2">Features</span>
             </button>
-            <button
+            {/* <button
               onClick={() => handleNavClick("#how-it-works")}
               className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:text-yellow-400 transition flex items-center text-white"
             >
               <CpuIcon />
               <span className="ml-2">Tech</span>
-            </button>
+            </button> */}
             <button
-              onClick={() => handleNavClick("#robot")}
+              onClick={() => handleNavClick("#Demo")}
               className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:text-yellow-400 transition flex items-center text-white"
             >
               <BotIcon />
-              <span className="ml-2">AI Demo</span>
+              <span className="ml-2"> Demo</span>
             </button>
             <button
-              onClick={() => handleNavClick("#pricing")}
+              onClick={() => handleNavClick("#contact")}
               className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:text-yellow-400 transition flex items-center text-white"
             >
               <RocketIcon />
-              <span className="ml-2">Upgrade</span>
+              <span className="ml-2">Contact us</span>
             </button>
             <div className="pt-4 border-t border-gray-800">
               <button

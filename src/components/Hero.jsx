@@ -126,7 +126,10 @@ import { faRobot, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
-    <section  id="hero" className="mt-20 pt-32 pb-20 bg-black-900">
+  <section
+  id="hero"
+  className="mt-10 -mb-[67px] pt-20 md:pt-32 pb-20 bg-black-900"
+>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="animate__animated animate__fadeInUp">
