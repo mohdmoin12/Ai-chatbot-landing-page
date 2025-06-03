@@ -823,22 +823,22 @@ const Navbar = () => {
                     onClick={() => handleNavClick("#how-it-works")}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-yellow-400 transition flex items-center cursor-pointer text-white"
                   >
-                    <CpuIcon />
+                    {/* <CpuIcon />
                     <span className="ml-2">TECH</span>
                   </button>
                   <button
                     onClick={() => handleNavClick("#robot")}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-yellow-400 transition flex items-center cursor-pointer text-white"
-                  >
+                  > */}
                     <BotIcon />
-                    <span className="ml-2">AI DEMO</span>
+                    <span className="ml-2">DEMO</span>
                   </button>
                   <button
                     onClick={() => handleNavClick("#pricing")}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-yellow-400 transition flex items-center cursor-pointer text-white"
                   >
                     <RocketIcon />
-                    <span className="ml-2">UPGRADE</span>
+                    <span className="ml-2">CONTACT US</span>
                   </button>
                 </div>
               </div>
