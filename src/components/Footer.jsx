@@ -329,7 +329,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
           <div className="col-span-2">
             <div className="text-2xl font-bold text-yellow-400 mb-4 logo-3d">
-              AI NEXUS
+              POP AI
             </div>
             <p className="text-gray-300 mb-4">
               Revolutionizing business communication with AI-powered solutions that work 24/7 to grow your revenue.
@@ -404,7 +404,7 @@ const Footer = () => {
         
         <div className="border-t border-yellow-600 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; 2025 AI Nexus. All rights reserved.
+            &copy; 2025 POP AI. All rights reserved.
           </div>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-yellow-400 text-sm link-3d relative inline-block transition-colors duration-300">Privacy Policy</a>
