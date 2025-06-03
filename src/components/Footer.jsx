@@ -254,11 +254,6 @@ import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { useEffect } from 'react';
 
 const Footer = () => {
-  const links = {
-    product: ["Features", "Pricing", "Integrations", "Updates", "Roadmap"],
-    resources: ["Blog", "Help Center", "Tutorials", "Webinars", "API Docs"],
-    company: ["About Us", "Careers", "Contact", "Press", "Partners"]
-  };
 
   useEffect(() => {
     // Add 3D tilt effect to social icons on mouse move
@@ -316,17 +311,17 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-black border-t border-yellow-600 pt-12 pb-8 relative overflow-hidden">
+    <footer className=" pt-12 pb-8 relative overflow-hidden">
       {/* Floating 3D elements in background */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-8 h-8 rounded-full bg-yellow-400 opacity-15 floating-element" style={{ animationDelay: '0s' }}></div>
         <div className="absolute top-1/3 right-1/3 w-12 h-12 rounded-full bg-yellow-500 opacity-10 floating-element" style={{ animationDelay: '1s' }}></div>
         <div className="absolute bottom-1/4 left-1/3 w-6 h-6 rounded-full bg-yellow-300 opacity-20 floating-element" style={{ animationDelay: '2s' }}></div>
         <div className="absolute bottom-1/3 right-1/4 w-10 h-10 rounded-full bg-yellow-600 opacity-12 floating-element" style={{ animationDelay: '3s' }}></div>
-      </div>
+      </div> */}
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
           <div className="col-span-2">
             <div className="text-2xl font-bold text-yellow-400 mb-4 logo-3d">
               POP AI
@@ -400,7 +395,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
         
         <div className="border-t border-yellow-600 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">

@@ -546,9 +546,9 @@ const Navbar = () => {
                   />
                   <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full border-2 border-black animate-pulse"></div>
                 </div>
-                <span className="text-2xl font-bold text-yellow-400">
+                {/* <span className="text-2xl font-bold text-yellow-400">
                   POP AI
-                </span>
+                </span> */}
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
@@ -597,19 +597,19 @@ const Navbar = () => {
                   onClick={() => handleNavClick("#contact")}
                   className="px-4 py-2 rounded-md text-lg font-medium transition mr-4"
                   style={{
-                    background: "linear-gradient(to right, #FED700)",
+                    background: " #FED700",
                     color: "black",
                   }}
                   onMouseEnter={(e) => {
                     e.target.style.background =
-                      "linear-gradient(to right, #e6c200)";
+                      " #e6c200";
                   }}
                   onMouseLeave={(e) => {
                     e.target.style.background =
-                      "linear-gradient(to right, #FED700)";
+                      " #FED700";
                   }}
                 >
-                  CONTACT US
+                  LET'S TALK 
                 </button>
               </div>
             </div>

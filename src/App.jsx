@@ -17,7 +17,7 @@ function App() {
     <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
-      <Robot3DSection />
+      {/* <Robot3DSection /> */}
       <Features />
       <Communication />
       <AllInOne />
