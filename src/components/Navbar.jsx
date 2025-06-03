@@ -802,11 +802,14 @@ const Navbar = () => {
               <div className="flex-shrink-0 flex items-center">
                 {/* Brand logo */}
                 <div className="relative">
-                  <img
-                    src="/pop-phones.webp"
-                    alt="POPI Brand Logo"
-                    className="brand-logo ai-glow"
-                  />
+                 <a href="#hero">
+  <img
+    src="https://www.popphones.com.au/wp-content/themes/etrostore-child-theme/assets/img/pop-phones-logo-v1.png"
+    alt="POPI Brand Logo"
+    className="brand-logo ai-glow"
+  />
+</a>
+
                   {/* <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-yellow-400 rounded-full border-2 border-black animate-pulse"></div> */}
                 </div>
               </div>
@@ -820,7 +823,7 @@ const Navbar = () => {
                     <span className="ml-2">FEATURES</span>
                   </button>
                   <button
-                    onClick={() => handleNavClick("#how-it-works")}
+                    onClick={() => handleNavClick("#Demo")}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-yellow-400 transition flex items-center cursor-pointer text-white"
                   >
                     {/* <CpuIcon />
@@ -834,7 +837,7 @@ const Navbar = () => {
                     <span className="ml-2">DEMO</span>
                   </button>
                   <button
-                    onClick={() => handleNavClick("#pricing")}
+                    onClick={() => handleNavClick("#contact")}
                     className="px-3 py-2 rounded-md text-sm font-medium hover:text-yellow-400 transition flex items-center cursor-pointer text-white"
                   >
                     <RocketIcon />
