@@ -950,7 +950,7 @@ const Navbar = () => {
                 className="block w-full text-left px-3 py-2 rounded-md text-base font-medium transition mb-2 flex items-center bg-yellow-400 text-black"
               >
                 <TerminalIcon />
-                <span className="ml-2">Contact us</span>
+                <span className="ml-2">Lets Talk</span>
               </button>
             </div>
           </div>
