@@ -121,38 +121,142 @@
 
 
 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faRobot, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+
+// const Hero = () => {
+//   return (
+//   <section
+//   id="hero"
+//   className="mt-10 -mb-[67px] pt-20 md:pt-32 pb-20 bg-black-900"
+// >
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+//         <div className="text-center">
+//           <div className="animate__animated animate__fadeInUp">
+//             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
+//               Increase Your <span className="text-yellow-400">Sales And Productivity</span> By Using Our All-In-One AI Software
+//             </h1>
+//             <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+//               Revolutionize your business with our cutting-edge AI solutions that handle customer interactions, streamline operations, and boost revenue 24/7.
+//             </p>
+//             <div className="flex flex-wrap gap-4 justify-center mb-8">
+//               <a href="#contact" className="px-8 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-lg font-bold text-gray-900 transition transform hover:scale-105 shadow-lg">
+//                 Try Now For Free
+//               </a>
+//               <a href="#features" className="px-8 py-3 border-2 border-yellow-500 hover:bg-yellow-500/10 rounded-lg font-bold text-yellow-400 hover:text-yellow-300 transition transform hover:scale-105">
+//                 Explore Features
+//               </a>
+//             </div>
+//             <div className="flex items-center justify-center text-sm text-gray-400 mb-12">
+//               <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 mr-1 text-green-400" />
+//               No Obligations • Cancel Anytime
+//             </div>
+//           </div>
+          
+//           {/* AI Assistant Ready Badge */}
+//           {/* <div className="inline-flex bg-yellow-500 p-4 rounded-xl shadow-xl animate-bounce-slow border border-yellow-400">
+//             <div className="flex items-center">
+//               <div className="mr-3">
+//                 <FontAwesomeIcon icon={faRobot} className="text-3xl text-gray-900" />
+//               </div>
+//               <div>
+//                 <div className="text-xs text-gray-800 font-medium">AI ASSISTANT ONLINE</div>
+//                 <div className="font-bold text-gray-900">Ready to help!</div>
+//               </div>
+//             </div>
+//           </div> */}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Hero;
+
+
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faRobot, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+// const Hero = () => {
+//   return (
+//   <section
+//   id="hero"
+//   className="mt-10 -mb-[67px] pt-20 md:pt-32 pb-20 bg-white"
+// >
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+//         <div className="text-center">
+//           <div className="animate__animated animate__fadeInUp">
+//             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-black">
+//               Increase Your <span className="text-yellow-400">Sales And Productivity</span> By Using Our All-In-One AI Software
+//             </h1>
+//             <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+//               Revolutionize your business with our cutting-edge AI solutions that handle customer interactions, streamline operations, and boost revenue 24/7.
+//             </p>
+//             <div className="flex flex-wrap gap-4 justify-center mb-8">
+//               <a href="#contact" className="px-8 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-lg font-bold text-gray-900 transition transform hover:scale-105 shadow-lg">
+//                 Try Now For Free
+//               </a>
+//               <a href="#features" className="px-8 py-3 border-2 border-yellow-500 hover:bg-yellow-500/10 rounded-lg font-bold text-yellow-400 hover:text-yellow-300 transition transform hover:scale-105">
+//                 Explore Features
+//               </a>
+//             </div>
+//             <div className="flex items-center justify-center text-sm text-gray-600 mb-12">
+//               <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 mr-1 text-green-400" />
+//               No Obligations • Cancel Anytime
+//             </div>
+//           </div>
+         
+//           {/* AI Assistant Ready Badge */}
+//           {/* <div className="inline-flex bg-yellow-500 p-4 rounded-xl shadow-xl animate-bounce-slow border border-yellow-400">
+//             <div className="flex items-center">
+//               <div className="mr-3">
+//                 <FontAwesomeIcon icon={faRobot} className="text-3xl text-gray-900" />
+//               </div>
+//               <div>
+//                 <div className="text-xs text-gray-800 font-medium">AI ASSISTANT ONLINE</div>
+//                 <div className="font-bold text-gray-900">Ready to help!</div>
+//               </div>
+//             </div>
+//           </div> */}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+// export default Hero;
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRobot, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
-
 const Hero = () => {
   return (
   <section
   id="hero"
-  className="mt-10 -mb-[67px] pt-20 md:pt-32 pb-20 bg-black-900"
+  className="mt-10 -mb-[67px] pt-20 md:pt-32 pb-20 bg-white"
 >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="animate__animated animate__fadeInUp">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
-              Increase Your <span className="text-yellow-400">Sales And Productivity</span> By Using Our All-In-One AI Software
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-black">
+              Increase Your <span className="text-black">Sales And Productivity</span> By Using Our All-In-One AI Software
             </h1>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
               Revolutionize your business with our cutting-edge AI solutions that handle customer interactions, streamline operations, and boost revenue 24/7.
             </p>
             <div className="flex flex-wrap gap-4 justify-center mb-8">
-              <a href="#contact" className="px-8 py-3 bg-yellow-500 hover:bg-yellow-600 rounded-lg font-bold text-gray-900 transition transform hover:scale-105 shadow-lg">
+              <a href="#contact" className="px-8 py-3 bg-black hover:bg-gray-800 rounded-lg font-bold text-white transition transform hover:scale-105 shadow-lg">
                 Try Now For Free
               </a>
-              <a href="#features" className="px-8 py-3 border-2 border-yellow-500 hover:bg-yellow-500/10 rounded-lg font-bold text-yellow-400 hover:text-yellow-300 transition transform hover:scale-105">
+              <a href="#features" className="px-8 py-3 border-2 border-black hover:bg-gray-100 rounded-lg font-bold text-black hover:text-black transition transform hover:scale-105">
                 Explore Features
               </a>
             </div>
-            <div className="flex items-center justify-center text-sm text-gray-400 mb-12">
-              <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 mr-1 text-green-400" />
+            <div className="flex items-center justify-center text-sm text-gray-600 mb-12">
+              <FontAwesomeIcon icon={faCheckCircle} className="h-5 w-5 mr-1 text-black" />
               No Obligations • Cancel Anytime
             </div>
           </div>
-          
+         
           {/* AI Assistant Ready Badge */}
           {/* <div className="inline-flex bg-yellow-500 p-4 rounded-xl shadow-xl animate-bounce-slow border border-yellow-400">
             <div className="flex items-center">
@@ -163,12 +267,11 @@ const Hero = () => {
                 <div className="text-xs text-gray-800 font-medium">AI ASSISTANT ONLINE</div>
                 <div className="font-bold text-gray-900">Ready to help!</div>
               </div>
-            </div>
+            </div>  
           </div> */}
         </div>
       </div>
     </section>
   );
 };
-
 export default Hero;
