@@ -1394,7 +1394,6 @@ const AllInOne = () => {
                     id="demo-video"
                     className="w-full h-full object-cover"
                     controls
-                    muted
                     autoPlay
                     playsInline
                     onPlay={() => setIsPlaying(true)}
